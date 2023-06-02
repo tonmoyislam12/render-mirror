@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: render889                                 # <-- update
+    name: render889
+    env: docker # <-- update
     repo: https://github.com/tonmoyislam12/render-mirror           # <-- update
     region: oregon
     plan: free

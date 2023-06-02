@@ -1,0 +1,9 @@
+version: "1.0"
+   
+services:
+  slam:
+    build: .
+    command: ash start.sh
+    restart: on-failure
+    ports:
+      - "80:80"

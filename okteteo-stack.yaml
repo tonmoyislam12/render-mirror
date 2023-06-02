@@ -1,0 +1,5 @@
+services:
+  slammirror:
+    public: true
+    build: .
+    replicas: 1
